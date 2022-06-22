@@ -14,3 +14,20 @@ jobs:
   
     container: 
       image: registry.access.redhat.com/ubi8/ubi:latest
+
+  steps:
+    - name: Program Build
+      run: |
+        echo "----- Start Program Build -----"
+        echo "----- End Program Build -----"
+        
+    - name: Program Test
+      run: |
+        echo "----- Start Program Test -----"
+        echo "----- End Program Test -----"
+
+    - name: Make Container
+      run: |
+        echo "----- Start Make Container -----"
+        echo "----- End Make Container -----"
+
