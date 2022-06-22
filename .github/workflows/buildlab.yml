@@ -8,6 +8,9 @@ on:
 jobs:
   node-docker:
     runs-on: self-hosted
+    
+    env:
+      IMAGE_NAME: build-lab-container
   
-container: 
-  image: registry.access.redhat.com/ubi8/ubi:latest
+    container: 
+      image: registry.access.redhat.com/ubi8/ubi:latest
