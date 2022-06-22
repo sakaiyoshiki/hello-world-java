@@ -1,0 +1,13 @@
+name: BuildLab
+
+on:
+  push:
+    paths:
+      - '*.txt"
+
+jobs:
+  node-docker:
+    runs-on: self-hosted
+  
+container: 
+  image: registry.access.redhat.com/ubi8/ubi:latest
