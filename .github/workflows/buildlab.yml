@@ -3,7 +3,7 @@ name: BuildLab
 on:
   push:
     paths:
-      - '*.txt"
+      - '*.txt'
 
 jobs:
   node-docker:
