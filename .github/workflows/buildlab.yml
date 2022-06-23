@@ -19,6 +19,8 @@ jobs:
       - name: Program Build
         run: |
           echo "----- Start Program Build -----"
+          ls -alt /
+          cat /etc/redhat-release
           echo "----- End Program Build -----"
         
       - name: Program Test
