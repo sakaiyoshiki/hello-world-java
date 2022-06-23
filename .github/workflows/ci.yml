@@ -13,8 +13,8 @@ jobs:
       -
         name: build
         run: |
-          echo: "----- Start Build -----"
-          echo: "----- End Build -----"
+          echo "----- Start Build -----"
+          echo "----- End Build -----"
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
